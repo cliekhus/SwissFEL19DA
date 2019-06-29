@@ -1,0 +1,5 @@
+$ cat .gitignore
+*.h5
+*.png
+/__pycache__
+*.pyc
