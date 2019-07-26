@@ -125,7 +125,7 @@ def filterData(IzeroFEL_pump, IzeroFEL_unpump, DataFluo_pump, DataFluo_unpump, n
         DataFluo_unpump = DataFluo_unpump[condFinalUnPump]
 
 
-        return IzeroFEL_pump, IzeroFEL_unpump, DataFluo_pump, DataFluo_unpump
+        return IzeroFEL_pump, IzeroFEL_unpump, DataFluo_pump, DataFluo_unpump, condFinalPump, condFinalUnPump
 
 
 
