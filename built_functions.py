@@ -129,7 +129,12 @@ def filterData(IzeroFEL_pump, IzeroFEL_unpump, DataFluo_pump, DataFluo_unpump, n
 
 
 
-
+def err_adder (Ea, Eb):
+    Ea = Ea*Ea
+    Eb = Eb*Eb
+    Eab = Ea+Eb
+    Eab = np.sqrt(Eab)
+    return Eab
 
 
 
