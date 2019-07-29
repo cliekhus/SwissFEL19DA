@@ -60,12 +60,11 @@ def get_xes_croped(filename, DIR, DIRBS, roi, numstds=2, minIzero=0.002, imageTh
 def list2Str(s): 
   
     # initialization of string to "" 
-    new = "[" 
+    new = "" 
     # traverse in the string  
     for x in s: 
+        new += '_'
         new += str(x)
-        new += ' '
-    new += "]"
   
     # return string  
     return new 
